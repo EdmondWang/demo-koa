@@ -1,0 +1,26 @@
+{
+  "name": "demo-koa",
+  "version": "1.0.0",
+  "description": "demo project of KOA",
+  "main": "node-koa-app.js",
+  "scripts": {
+    "start": "nodemon node-koa-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdmondWang/demo-koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdmondWang/demo-koa/issues"
+  },
+  "homepage": "https://github.com/EdmondWang/demo-koa#readme",
+  "devDependencies": {
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "dependencies": {
+    "koa": "^2.8.1"
+  }
+}
