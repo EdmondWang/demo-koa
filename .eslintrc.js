@@ -5,7 +5,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": ["plugin:prettier/recommended", "eslint:recommended"],
+    "extends": ["plugin:prettier/recommended"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -16,7 +16,7 @@ module.exports = {
         },
         "ecmaVersion": 2018
     },
-    "plugins": ["react", "prettier"],
+    "plugins": ["react"],
     "rules": {
         "accessor-pairs": "error",
         "array-bracket-newline": "error",
@@ -24,7 +24,7 @@ module.exports = {
         "array-callback-return": "error",
         "array-element-newline": "error",
         "arrow-body-style": "error",
-        "arrow-parens": "error",
+        "arrow-parens": "off",
         "arrow-spacing": "error",
         "block-scoped-var": "error",
         "block-spacing": "error",
@@ -43,7 +43,7 @@ module.exports = {
         "dot-location": "error",
         "dot-notation": "error",
         "eol-last": [
-            "error",
+            "off",
             "never"
         ],
         "eqeqeq": "error",
@@ -195,7 +195,7 @@ module.exports = {
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
-        "prettier/prettier": "off",
+        "prettier/prettier": "error",
         "radix": "error",
         "require-jsdoc": "error",
         "require-unicode-regexp": "error",

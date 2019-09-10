@@ -20,11 +20,11 @@ app.use(async (ctx, next) => {
     ctx.set(X_RESPONSE_TIME, ms);
 });
 
-app.use(async (ctx) => {
+app.use(async ctx => {
     ctx.body = 'Hello World';
 });
 
-app.on('error', (err) => {
+app.on('error', err => {
     console.error(err);
 });
 
