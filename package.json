@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/EdmondWang/demo-koa#readme",
   "devDependencies": {
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "1.18.2"
   },
   "dependencies": {
-    "koa": "^2.8.1"
+    "koa": "^2.8.1",
+    "winston": "^3.2.1"
   }
 }

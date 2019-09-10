@@ -24,4 +24,8 @@ app.use(async (ctx) => {
     ctx.body = 'Hello World';
 });
 
+app.on('error', (err) => {
+    console.error(err);
+});
+
 app.listen(port);
